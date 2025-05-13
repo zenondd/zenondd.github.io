@@ -1,13 +1,10 @@
-/* ----- Google Map ----- */
 async function initMap() {
     try {
-        // Load the required libraries
         const { Map } = await google.maps.importLibrary("maps");
         
-        // Define map options
         const mapOptions = {
             zoom: 16,
-            center: { lat: 34.052235, lng: -118.243683 }, // Los Angeles
+            center: { lat: 34.052235, lng: -118.243683 },
             mapId: 'DEMO_MAP_ID',
             scrollwheel: false,
             styles: [{
@@ -66,10 +63,8 @@ async function initMap() {
             }]
         };
         
-        // Create the map
         const map = new Map(document.getElementById('map'), mapOptions);
         
-        // Add a marker
         const marker = new google.maps.Marker({
             position: { lat: 34.052235, lng: -118.243683 },
             map: map,
@@ -82,7 +77,6 @@ async function initMap() {
     }
 }
 
-// Initialize the map when the page loads
 if (document.getElementById('map')) {
     window.addEventListener('load', initMap);
 }

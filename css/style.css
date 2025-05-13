@@ -1,58 +1,9 @@
-/* ===================================
-    About
-====================================== */
-
-/*
-    Theme Name: MegaOne
-    Theme URI:
-    Author: Themes Industry
-    Author URI:
-    Description: One Page Parallax Template
-    Tags: one page, multipurpose, parallax, creative, html5
-
- */
-
-/* ===================================
-    Table of Content
-====================================== */
-
-
-/*  - Fonts
-    - General
-    - Fonts
-    - Social Icon Hover
-    - Header And Navigation
-    - Slider
-    - About
-    - Team
-    - Portfolio
-    - Price
-    - Parallax
-    - Testimonial
-    - Client
-    - Blog
-    - Contact
-    - Map
-    - Footer
-    - Loader
-    - Media Queries   */
-
-
-/* ===================================
-    Google font
-====================================== */
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,800&display=swap');
 
 
 .main-font{font-family: 'Roboto', sans-serif;}
 .alt-font{font-family: 'Montserrat', sans-serif;}
-
-
-/* ===================================
-    General
-====================================== */
 
 body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #696969;font-weight:300;line-height:30px;letter-spacing: 0.2px;width: 100%; overflow-x: hidden}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {line-height: 1.2; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #404854;}
@@ -183,10 +134,6 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
     display: inline-block;
 }
 
-/* ===================================
-   Social Icon Bg
-====================================== */
-
 .social-icon-bg a i.fa-facebook-f {background-color: #3B5998;}
 .social-icon-bg a i.fa-twitter {background-color: #55ACEE;}
 .social-icon-bg a i.fa-google-plus {background-color: #DD4B39;}
@@ -207,9 +154,6 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .social-icon-bg a i.fa-yelp {background-color: #af0606;}
 .social-icon-bg a i.fa-vine {background-color: #00b489;}
 
-/* ===================================
-   Social Icon Bg Hover
-====================================== */
 
 .social-icon-bg-hvr a:hover i.fa-facebook-f {background-color: #3B5998;}
 .social-icon-bg-hvr a:hover i.fa-twitter {background-color: #55ACEE;}
@@ -231,9 +175,6 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .social-icon-bg-hvr a:hover i.fa-yelp {background-color: #af0606;}
 .social-icon-bg-hvr a:hover i.fa-vine {background-color: #00b489;}
 
-/* ===================================
-   Social Icon Color
-====================================== */
 
 .social-icon-clr a i.fa-facebook {color: #3B5998;}
 .social-icon-clr a i.fa-twitter {color: #55ACEE;}
@@ -255,9 +196,6 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .social-icon-clr a i.fa-yelp {color: #af0606;}
 .social-icon-clr a i.fa-vine {color: #00b489;}
 
-/* ===================================
-   Social Icon Hover
-====================================== */
 
 .social-icon-clr-hvr a i:hover.fa-facebook {color: #3B5998;}
 .social-icon-clr-hvr a i:hover.fa-twitter {color: #55ACEE;}
@@ -278,14 +216,6 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .social-icon-clr-hvr a i:hover.fa-xing {color: #026466;}
 .social-icon-clr-hvr a i:hover.fa-yelp {color: #af0606;}
 .social-icon-clr-hvr a i:hover.fa-vine {color: #00b489;}
-
-/* ========== End Basic Style ========== */
-
-
-/* ===================================
-    Header
-====================================== */
-
 
 /* logo change */
 
@@ -998,10 +928,6 @@ span.anchor-circle{
 }
 
 
-/* ===================================
-   Get Quote Model Popup
-====================================== */
-
 .quote-content{
     text-align: center;
     max-width: 900px;
@@ -1132,9 +1058,6 @@ span.anchor-circle{
     background-color: transparent;
 }
 
-/* ===================================
-   About Section
-====================================== */
 
 
 .heading-area .sub-title{
@@ -1148,9 +1071,6 @@ span.anchor-circle{
     margin: 15px 0 25px;
 }
 
-/* ===================================
-   Services Section
-====================================== */
 
 .process-wrapp {
     text-align: center;
@@ -1252,9 +1172,6 @@ span.anchor-circle{
     box-shadow:0 0 0 0 rgb(240, 33, 182);
 }
 
-/* ===================================
-   Counters
-====================================== */
 
 .counter-list{
     margin: 0;
@@ -1293,9 +1210,6 @@ span.anchor-circle{
     line-height: 1.2;
 }
 
-/* ===================================
-   Team
-====================================== */
 
 .team-item{
     cursor: pointer;
@@ -1391,9 +1305,6 @@ span.anchor-circle{
 }
 
 
-/* ===================================
-    Cube Portfolio
-====================================== */
 
 .cube-portfolio1 .cbp-l-filters-button .cbp-filter-item {
     background: transparent;
@@ -1493,9 +1404,6 @@ span.anchor-circle{
 }
 
 
-/* ===================================
-   Testimonials
-====================================== */
 
 #testimonial-slider{
     max-width: 730px;
@@ -1574,9 +1482,6 @@ span.anchor-circle{
 }
 
 
-/* ===================================
-   Lates Blog
-====================================== */
 
 .news-item{
     position: relative;
@@ -1655,9 +1560,6 @@ span.anchor-circle{
 }
 
 
-/* ===================================
-   Client
-====================================== */
 
 .owl-carousel .owl-item img{
     width: auto;
@@ -1685,9 +1587,6 @@ span.anchor-circle{
     background-image: url("../img/map.jpg");
 }
 
-/* ===================================
-   Contact
-====================================== */
 
 .contact-form .form-control {
     border: 1px solid #d4d4d4;
@@ -1758,9 +1657,6 @@ audio, video, canvas {
 }
 
 
-/* ===================================
-   Footer
-====================================== */
 
 .footer-style-1{
     padding: 5rem 0;
@@ -1809,9 +1705,6 @@ audio, video, canvas {
     font-size: 14px;
 }
 
-/* ===================================
-   Scroll Top
-====================================== */
 
 .scroll-top-arrow, .scroll-top-arrow:focus {
     font-size: 23px;
@@ -1837,9 +1730,6 @@ audio, video, canvas {
     background-color: #00bcd4; }
 
 
-/* ===================================
-   Other Page
-====================================== */
 
 .page-title{
     position:relative;
@@ -2331,9 +2221,6 @@ input.inputerror, textarea.inputerror, select.inputerror {
     transform: scale(1); }
 
 
-/* ===================================
-     Widget Area
-   =================================== */
 
 
 .agency-widget > .widget {
@@ -2489,9 +2376,6 @@ input.inputerror, textarea.inputerror, select.inputerror {
     background:#03A9F5;
     color: #fff; }
 
-/* ===================================
-   Animations
-====================================== */
 
 /*Fade*/
 @-webkit-keyframes animationFade {
@@ -2794,10 +2678,6 @@ input.inputerror, textarea.inputerror, select.inputerror {
     }
 }
 
-/* ===================================
-    Cursor
-====================================== */
-
 
 /* Cursor */
 
@@ -2832,9 +2712,6 @@ input.inputerror, textarea.inputerror, select.inputerror {
 }
 
 
-/* ===================================
-    Loader
-   ====================================== */
 
 .inner {
     display: table-cell;
@@ -3118,11 +2995,6 @@ input.inputerror, textarea.inputerror, select.inputerror {
     }
 }
 
-
-
-/* ===================================
-    Media Queries
-   ====================================== */
 
 
 @media screen and (max-width:1366px){

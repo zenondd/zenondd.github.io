@@ -2,10 +2,6 @@ $(window).on("load", function () {
 
     "use strict";
 
-    /* ===================================
-            Loading Timeout
-     ====================================== */
-
     setTimeout(function(){
         $('.preloader').fadeOut();
 
@@ -22,14 +18,8 @@ jQuery(function ($) {
 
     "use strict";
 
-
-    /* ===================================
-         Scroll
-    ====================================== */
-
-
     $(window).on('scroll', function () {
-        if ($(this).scrollTop() > 220) { // Set position from top to add class
+        if ($(this).scrollTop() > 220) {
             $('header').addClass('header-appear');
         }
         else {
@@ -37,7 +27,6 @@ jQuery(function ($) {
         }
     });
 
-    //scroll to appear
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 500)
             $('.scroll-top-arrow').fadeIn('slow');
@@ -45,7 +34,6 @@ jQuery(function ($) {
             $('.scroll-top-arrow').fadeOut('slow');
     });
 
-    //Click event to scroll to top
     $(document).on('click', '.scroll-top-arrow', function () {
         $('html, body').animate({scrollTop: 0}, 800);
         return false;
@@ -72,28 +60,18 @@ jQuery(function ($) {
         });
     });
 
-    /* ===================================
-      Rotating Text
-      ====================================== */
 
     if ($(".js-rotating").length) {
         $(".js-rotating").Morphext({
-            // The [in] animation type. Refer to Animate.css for a list of available animations.
             animation: "flipInX",
-            // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
             separator: ",",
-            // The delay between the changing of each phrase in milliseconds.
             speed: 3000,
             complete: function () {
-                // Called after the entrance animation is executed.
             }
         });
     }
 
 
-    /* ===================================
-      Side Menu
-     ====================================== */
 
     $("#full-menu-1").on("click", function () {
         $(this).toggleClass("active");
@@ -110,9 +88,6 @@ jQuery(function ($) {
             $("body").removeClass("overflow-hidden");
         }});
 
-    /* ===================================
-      Animated Cursor
-   ====================================== */
 
     function animatedCursor() {
 
@@ -191,9 +166,6 @@ jQuery(function ($) {
     }
 
 
-    /* ===================================
-        WOW Animation
-     ====================================== */
 
     if ($(window).width() > 991) {
         var wow = new WOW({
@@ -206,9 +178,6 @@ jQuery(function ($) {
         new WOW().init();
     }
 
-    /* ===================================
-       Owl Carousel
-      ====================================== */
 
     //Testimonial Slider
 
@@ -356,19 +325,12 @@ function dotCanvas(){
         dotCanvas();
     }
 
-
-
-    /*--------------------------------------------------
-        Smoke Effect
-    ---------------------------------------------------*/
-
     function smokeeffect () {
 
-        var frameProportion = 1.78, //png frame aspect ratio
-            frames = 25, //number of png frames
+        var frameProportion = 1.78,
+            frames = 25,
             resize = false;
 
-        //set transitionBackground dimentions
         var transitionBackground = $('.cd-transition-layer .bg-layer');
         setLayerDimensions();
         $(window).on('resize', function(){
@@ -401,13 +363,6 @@ function dotCanvas(){
 
     }
     smokeeffect();
-
-
-
-    /*============================================*
-            Cube Portfolio
-  * ============================================*/
-
 
     $('#js-grid-mosaic-flat').cubeportfolio({
         filters: '#js-filters-mosaic-flat',
@@ -450,11 +405,6 @@ function dotCanvas(){
             }
         },
     });
-
-
-    /* ===================================
-          Revolution Slider
-   ====================================== */
 
     $("#rev_slider_17_1").show().revolution({
                     sliderType:"standard",
