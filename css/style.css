@@ -5,7 +5,7 @@
 .main-font{font-family: 'Roboto', sans-serif;}
 .alt-font{font-family: 'Montserrat', sans-serif;}
 
-body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #696969;font-weight:300;line-height:30px;letter-spacing: 0.2px;width: 100%; overflow-x: hidden}
+body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #696969;font-weight:300;line-height:30px;letter-spacing: 0.2px;width: 100%; overflow-x: hidden; background-color: #e6f0ff;}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {line-height: 1.2; font-weight: 500; font-family: 'Montserrat', sans-serif; color: #404854;}
 a, *::before, *::after, img, span, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}
 section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;}
@@ -90,20 +90,20 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .bg-dark {background-color: #1d1d21 !important;}
 .bg-blue {background-color: #0063e8;}
 .bg-blue-light {background-color: #0095ff;}
-.bg-white {background-color: #ffffff;}
+.bg-white {background-color: #e6f0ff !important;}
 
 .gradient-bg1{
-    background: #0063e8;
-    background: -moz-linear-gradient(left, #0063e8 2%, #0095ff 82%);
-    background: -webkit-linear-gradient(left, #0063e8 2%, #0095ff 82%);
-    background: linear-gradient(to right, #0063e8 2%, #0095ff 82%);
+    background: #e6f0ff !important;
+    background: -moz-linear-gradient(left, #e6f0ff 2%, #0095ff 82%);
+    background: -webkit-linear-gradient(left, #e6f0ff 2%, #0095ff 82%);
+    background: linear-gradient(to right, #e6f0ff 2%, #0095ff 82%);
 }
 
 .gradient-bg2{
-    background: #0063e8;
-    background: -moz-linear-gradient(left, #0063e8 2%, #0095ff 82%);
-    background: -webkit-linear-gradient(left, #0063e8 2%, #0095ff 82%);
-    background: linear-gradient(to right, #0063e8 2%, #0095ff 82%);
+    background: #e6f0ff !important;
+    background: -moz-linear-gradient(left, #e6f0ff 2%, #0095ff 82%);
+    background: -webkit-linear-gradient(left, #e6f0ff 2%, #0095ff 82%);
+    background: linear-gradient(to right, #e6f0ff 2%, #0095ff 82%);
 }
 
 /* text-color */
@@ -249,24 +249,23 @@ header a.logo img {max-width: 150px;}
 
 .navbar-top-default.navbar-gradient .navbar-nav .nav-link {
     padding:.4rem 0;
-    color: #FFFFFF;
+    color: #404854;
     font-weight: 400;
     min-width: 100px;
     text-align: center;
     font-size: 14px;
 }
 
-.header-appear .navbar-top-default.navbar-gradient .navbar-nav .menu-line{
-    color: #FFFFFF;
+.header-appear .navbar-top-default.navbar-gradient {
+    background: #e6f0ff;
 }
-
 
 .header-appear .navbar-top-default {
     height: 80px;
     position: fixed;
     z-index: 97;
     margin-top: 0;
-    background: #ffffff;
+    background: #e6f0ff;
     -webkit-animation-name: animationFade;
     -o-animation-name: animationFade;
     animation-name: animationFade;
@@ -276,15 +275,8 @@ header a.logo img {max-width: 150px;}
     -webkit-animation-fill-mode: both;
     -o-animation-fill-mode: both;
     animation-fill-mode: both;
-    -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
-}
-
-.header-appear .navbar-top-default.navbar-gradient {
-    background: #0063e8;
-    background: -moz-linear-gradient(left, #0063e8 2%, #0095ff 82%);
-    background: -webkit-linear-gradient(left, #0063e8 2%, #0095ff 82%);
-    background: linear-gradient(to right, #0063e8 2%, #0095ff 82%);
+    -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-top-default #agency{
@@ -587,10 +579,7 @@ header a.logo img {max-width: 150px;}
 }
 
 .nav-holder:not(.style-2).active {
-    background: #0063e8;
-    background: -moz-linear-gradient(left, #0063e8 2%, #0095ff 82%);
-    background: -webkit-linear-gradient(left, #0063e8 2%, #0095ff 82%);
-    background: linear-gradient(to right, #0063e8 2%, #0095ff 82%);
+    background: #e6f0ff;
     opacity: 1;
     pointer-events: auto;
 }
@@ -606,10 +595,7 @@ header a.logo img {max-width: 150px;}
     z-index: 99;
     position: fixed;
     opacity: 1;
-}
-
-.nav-holder.style-2.active{
-    background: rgba(0, 0, 0, 0.9);
+    background: #e6f0ff;
 }
 
 .header-appear .nav-holder .shape-left,.header-appear .nav-holder .shape-right{
@@ -932,6 +918,7 @@ span.anchor-circle{
     max-width: 900px;
     padding: 50px 150px;
     overflow: visible;
+    background-color: #e6f0ff;
 }
 
 .quote-content .contact-form .form-control{
@@ -955,7 +942,7 @@ span.anchor-circle{
 }
 
 .fancybox-bg {
-    background: #ffffffb8;
+    background: #e6f0ff;
 }
 
 .checkbox-lable {
@@ -1509,7 +1496,7 @@ span.anchor-circle{
 
 .news-item .news-text-box{
     padding: 30px;
-    background-color: #fff;
+    background-color: #e6f0ff !important;
 }
 
 .news-item .date{
@@ -1592,7 +1579,7 @@ span.anchor-circle{
 .contact-form .form-control {
     border: 1px solid #d4d4d4;
     padding: 15px 15px;
-    background: #fff;
+    background: #e6f0ff !important;
     letter-spacing: .5px;
     font-weight: 400;
     -webkit-border-radius: 5px;
@@ -1661,6 +1648,7 @@ audio, video, canvas {
 
 .footer-style-1{
     padding: 5rem 0;
+    background-color: #e6f0ff !important;
 }
 
 .footer-social{
@@ -2734,7 +2722,7 @@ input.inputerror, textarea.inputerror, select.inputerror {
     position: fixed;
     top: 0;
     bottom: 0;
-    background: #0063e8;
+    background: #e6f0ff;
     z-index: 800;
     text-align: center;
     overflow: hidden;
@@ -3314,4 +3302,24 @@ input.inputerror, textarea.inputerror, select.inputerror {
     animation: itg_pulse_blue_light 1s infinite;
     -webkit-box-shadow:0 0 0 0 rgb(0, 149, 255);
     box-shadow:0 0 0 0 rgb(0, 149, 255);
+}
+
+/* Fix the overlay for contact section */
+.contact-us > div[style*="background-color: rgba(255, 255, 255, 0.6)"] {
+    background-color: rgba(230, 240, 255, 0.8) !important;
+}
+
+/* Background elements in slider */
+.tp-bgimg.defaultimg, .tp-caption, .tp-bannertimer {
+    background-color: #e6f0ff !important;
+}
+
+/* Fix for modal backgrounds and form elements */
+.modal, .modal-content, input, textarea, select {
+    background-color: #e6f0ff !important;
+}
+
+/* Fix for additional UI components */
+.agency-widget > .widget, .agency-author, .dropdown-menu, .dropdown-item {
+    background-color: #e6f0ff !important;
 }
